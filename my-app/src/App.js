@@ -55,6 +55,28 @@ class App extends React.Component {
               </Accordion>
             </Paper>
           </Grid>
+          <Grid item xs={12} sm={6}>
+            <Paper elevation={2}>
+              <Accordion>
+                <AccordionSummary>
+                  <Typography>
+                    {" "}
+                    <h1> Versions </h1> <p>*click here*</p>{" "}
+                  </Typography>{" "}
+                </AccordionSummary>{" "}
+                <AccordionDetails>
+                  <Typography>
+                    <ul>
+                      <li> Intelliband 0.5 15 GB </li>{" "}
+                      <li> Intelliband 1.5 32 GB </li>{" "}
+                      <li> Intelliband 2.0 64 GB </li>{" "}
+                    </ul>{" "}
+                  </Typography>{" "}
+                </AccordionDetails>{" "}
+              </Accordion>{" "}
+            </Paper>{" "}
+          </Grid>{" "}
+
         </Grid>
       </div>
     );
