@@ -5,6 +5,7 @@ import Accordion from "@material-ui/core/Accordion";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
 
 class App extends React.Component {
   render() {
@@ -83,6 +84,31 @@ class App extends React.Component {
                 </AccordionDetails>
               </Accordion>
             </Paper>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Paper elevation={2}>
+              <Accordion>
+                <AccordionSummary>
+                  <Typography>
+                    <h1> Device Setup </h1> <p>*click here*</p>
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    <ol>
+                      <li> 1. Set device passcode </li>
+                      <li> 2. Set voice recognizer </li>
+                      <li> 3. Set fingerprint </li>
+                    </ol>
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Button variant="contained" color="primary" onClick={() => { alert('IOS 6+ and higher, Android 8.0 and higher')}}>
+                Compatible Devices
+            </Button>
           </Grid>
         </Grid>
       </div>
