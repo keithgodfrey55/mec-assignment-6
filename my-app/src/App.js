@@ -59,7 +59,7 @@ class App extends React.Component {
           </Grid>{" "}
           <Grid item xs={12} sm={6}>
             <Paper elevation={2}>
-              <Accordian>
+              <Accordion>
                 <AccordionSummary>
                   <Typography>
                     {" "}
@@ -75,7 +75,7 @@ class App extends React.Component {
                     </ul>{" "}
                   </Typography>{" "}
                 </AccordionDetails>{" "}
-              </Accordian>{" "}
+              </Accordion>{" "}
             </Paper>{" "}
           </Grid>{" "}
         </Grid>{" "}
