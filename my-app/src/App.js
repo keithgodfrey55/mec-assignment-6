@@ -15,7 +15,7 @@ class App extends React.Component {
           container
           direction="row"
           jutstify="space-evenly"
-          alignItems="center"
+          alignItems="baseline"
           spacing={2}
         >
           <Grid item align="center" xs={12} sm={12}>
@@ -234,3 +234,4 @@ class App extends React.Component {
   }
 }
 export default App;
+
