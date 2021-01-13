@@ -228,6 +228,11 @@ class App extends React.Component {
               </Typography>
             </Paper>
           </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Button variant="contained" color="primary" >
+            <a href="http://localhost:3000/">Scroll to Top ^</a>
+              </Button>
+          </Grid>
         </Grid>
       </div>
     );
